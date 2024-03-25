@@ -23,8 +23,8 @@ export const Card = ({
           <h1>{name}</h1>
           <p>{description}</p>
         </div>
-
-        <div className="btn-actions">
+      </div>
+      <div className="btn-actions">
           <button
             onClick={() => handleLikeOrDontLike(id, false)}
             className="btn dont-like"
@@ -43,7 +43,6 @@ export const Card = ({
             <img src={heart} alt="heart" />
           </button>
         </div>
-      </div>
     </div>
   );
 };

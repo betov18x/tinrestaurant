@@ -8,6 +8,7 @@ import { Navbar } from "./components/Navbar";
 import { Restaurant, RestaurantsContext } from "./context/RestaurantsContext";
 import { useState } from "react";
 import restaurantsData from "./assets/data.json";
+import { LikedList } from "./components/LikedList";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Navbar />
-        Your likes route
+        <LikedList />
       </>
     ),
   },

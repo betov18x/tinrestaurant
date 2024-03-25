@@ -1,9 +1,27 @@
+import {
+  Navigate,
+  RouterProvider,
+  createBrowserRouter,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <>Hello default route</>,
+  },
+  {
+    path: "your-likes",
+    element: <>Your likes route</>,
+  },
+  { path: "*", element: <Navigate to="/" /> },
+]);
+
 function App() {
   return (
     <>
-      Hello
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

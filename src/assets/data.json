@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "McDonald's",
+    "description": "Iconic fast-food chain known for its burgers and fries.",
+    "url": "/mcdonalds.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 2,
+    "name": "Burger King",
+    "description": "Home of the Whopper and other flame-grilled favorites.",
+    "url": "/burger-king.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 3,
+    "name": "Subway",
+    "description": "International chain specializing in submarine sandwiches.",
+    "url": "/subway.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 4,
+    "name": "KFC",
+    "description": "Global fast-food chain known for its fried chicken.",
+    "url": "/kfc.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 5,
+    "name": "Pizza Hut",
+    "description": "Famous for its pizza, pasta, and wings.",
+    "url": "/pizza-hut.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 6,
+    "name": "Domino's Pizza",
+    "description": "Popular pizza chain offering delivery and carryout.",
+    "url": "/dominos.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 7,
+    "name": "Taco Bell",
+    "description": "Tex-Mex fast-food chain known for its tacos and burritos.",
+    "url": "/taco-bell.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 8,
+    "name": "Wendy's",
+    "description": "Fast-food chain known for its square hamburgers.",
+    "url": "/wendys.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 9,
+    "name": "Carl's Jr.",
+    "description": "Known for its big, juicy burgers and hand-breaded chicken tenders.",
+    "url": "/carlsjr.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 10,
+    "name": "Jack in the Box",
+    "description": "Quick-serve restaurant known for its diverse menu.",
+    "url": "/jack-in-the-box.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 11,
+    "name": "Panda Express",
+    "description": "American-Chinese fast-food chain known for its orange chicken.",
+    "url": "/panda-express.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 12,
+    "name": "Sonic Drive-In",
+    "description": "Drive-in fast-food restaurant known for its burgers and shakes.",
+    "url": "/sonic.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 13,
+    "name": "In-N-Out Burger",
+    "description": "West Coast fast-food chain known for its fresh burgers and fries.",
+    "url": "/in-n-out.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 14,
+    "name": "Five Guys",
+    "description": "Burger joint known for its customizable burgers and fries.",
+    "url": "/five-guys.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 15,
+    "name": "Chipotle Mexican Grill",
+    "description": "Mexican-inspired fast-casual chain known for its burritos.",
+    "url": "/chipotle.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 16,
+    "name": "Popeyes Louisiana Kitchen",
+    "description": "Fast-food chain known for its Louisiana-style fried chicken.",
+    "url": "/popeyes.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 17,
+    "name": "Whataburger",
+    "description": "Regional fast-food chain known for its made-to-order burgers.",
+    "url": "/whataburguer.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 18,
+    "name": "Shake Shack",
+    "description": "Fast-food chain known for its shakes and hamburguers.",
+    "url": "/shake-shack.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 19,
+    "name": "Dairy Queen",
+    "description": "Fast-food chain known for its soft-serve ice cream and burgers.",
+    "url": "/dq.jpeg",
+    "isRestaurantLiked": null
+  },
+  {
+    "id": 20,
+    "name": "Little Caesars",
+    "description": "Pizza chain known for its hot-n-ready pizzas at affordable prices.",
+    "url": "/little-ceasars.jpeg",
+    "isRestaurantLiked": null
+  }
+]

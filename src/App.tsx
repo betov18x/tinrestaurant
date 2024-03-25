@@ -5,6 +5,9 @@ import {
 } from "react-router-dom";
 import { CardStack } from "./components/CardStack";
 import { Navbar } from "./components/Navbar";
+import { Restaurant, RestaurantsContext } from "./context/RestaurantsContext";
+import { useState } from "react";
+import restaurantsData from "./assets/data.json";
 
 const router = createBrowserRouter([
   {
@@ -29,9 +32,13 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  const [restaurants, setRestaurants] = useState<Restaurant[]>(restaurantsData);
+  const value = { restaurants, setRestaurants };
   return (
     <>
-      <RouterProvider router={router} />
+      <RestaurantsContext.Provider value={value}>
+        <RouterProvider router={router} />
+      </RestaurantsContext.Provider>
     </>
   );
 }

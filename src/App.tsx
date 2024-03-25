@@ -3,15 +3,27 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
+import { CardStack } from "./components/CardStack";
+import { Navbar } from "./components/Navbar";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <>Hello default route</>,
+    element: (
+      <>
+        <Navbar />
+        <CardStack />
+      </>
+    ),
   },
   {
     path: "your-likes",
-    element: <>Your likes route</>,
+    element: (
+      <>
+        <Navbar />
+        Your likes route
+      </>
+    ),
   },
   { path: "*", element: <Navigate to="/" /> },
 ]);

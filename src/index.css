@@ -1,0 +1,29 @@
+/* Navbar starts */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d8de;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li a {
+  display: block;
+  color: #505965;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #cacaca;
+}
+
+.active {
+  background-color: #e5e5e5;
+}
+/* Navbar ends */
